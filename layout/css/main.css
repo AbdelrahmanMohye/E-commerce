@@ -1,0 +1,203 @@
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+body{
+	background-color: #f0f0f0 !important;
+}
+
+.choose_sing_login{
+	display: block;
+	margin:30px; 
+	color: #999;
+	font-size: 35px;
+	font-weight: bold;
+	cursor: pointer;
+}
+.title_page{
+	margin: 50px;
+	color: #777;
+	text-align: center;
+
+}
+
+.login{
+	max-width: 300px;
+	margin: auto;
+	margin-top: 40px;
+}
+.login input{
+	margin-top: 5px;
+}
+
+.SignUp{
+	max-width: 300px;
+	margin: auto;
+	margin-top: 40px;
+}
+.SignUp input{
+	margin-top: 5px;
+}
+
+
+
+.selected{
+	color: #007bff;
+}
+
+.hidden{
+	display: none;
+}
+
+.info_pic{
+	max-height: 400px; 
+	margin-bottom: 30px;
+}
+.info_pic .pic .pic_fix{
+	padding: 7px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    max-width: 200px;
+    max-height: 200px;
+    margin: auto;
+    border: 4px solid #007bff
+}
+
+.info_pic .pic img{
+	border-radius: 50%;
+	max-width: 100%;
+	height:auto;
+}
+
+.info_details ul li span{
+	font-size: 15px;
+	font-weight: bold;
+	width: 120px;
+	display: inline-block;
+}
+.info_details ul{
+	color: #666;
+}
+
+.info_details ul  li:nth-child(odd){
+	background-color: #f2f2f2 !important;
+}
+
+.Ads{
+	margin-bottom: 50px;
+	margin-top: 50px;
+	overflow: hidden;
+}
+.Ads .card-body{
+	display: flex;
+}
+.Ads_item{
+	padding: 10px 10px;
+}
+
+.Ads_item .Ads_item_content{
+	color: #444;
+	position: relative;
+	overflow: hidden;
+	background-color: #fff;
+	border:1px solid #bbb;
+}
+.Ads_item_content .button_ED{
+	position: absolute;
+	top: 20px;
+	right: -60px;
+	display: block;
+	transition: all 0.5s ease-in-out;
+}
+
+.Ads_item .Ads_item_content .Ads_pic{
+    position: relative;
+	overflow: hidden;
+	padding: 10px;
+}
+.Ads_item .Ads_item_content .price_show{
+	position: absolute;
+	top: 5px;
+	left: 0px;
+	max-width: 100px;
+	background-color: #999;
+	color: #fff;
+	z-index: 99999;
+	padding:0px 5px;
+	font-weight: bold;
+}
+.Ads_item_content:hover .button_ED{
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	transition: all 0.5s ease-in-out;
+}
+.btn-group-sm>.btn, .btn-sm {
+	padding: 0px !important;
+	width: 60px ;
+}
+
+.Ads_item_content .Ads_pic{
+	text-align: center;
+}
+.Ads_item_content .Ads_pic img{
+  max-width: 100%;
+  max-height: 100%;
+}
+.Ads_item_content .Ads_info{
+	padding: 10px;
+	text-align: center;
+}
+
+.Ads_item_content .Ads_info a{
+	/*text-decoration: none;*/
+	color: #444;
+	font-weight: bold;
+}
+
+.items_details{
+	padding: 20px;
+}
+.items_details ul li:nth-child(odd){
+	background-color: #ddd;
+}
+.items_details ul li{
+	margin-top: 5px;
+	padding-left: 10px;
+}
+.items_details ul li span{
+	display: inline-block;
+	font-size: 18px;
+	color: #333;
+	width: 120px;
+	font-weight: bold;
+}
+.items_details ul li{
+	color: #333;
+	font-size: 16px;
+	
+}
+
+
+/* start new item */
+
+.new_item span{
+	
+	font-weight: bold;
+	color: #444;
+}
+
+.item_box{
+	position: relative;
+	border:1px solid #ddd;
+	text-align: center;
+}
+.item_box .price_tage{
+	position: absolute;
+	top: 5px;
+	left: 0px;
+	background-color: #999;
+	padding:0px 4px;
+	color: #fff; 
+}
+
+/* end new item */
