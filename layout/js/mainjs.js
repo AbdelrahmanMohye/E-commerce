@@ -1,6 +1,8 @@
 $(function(){
 	'use strict';
-
+        jQuery.htmlPrefilter = function( html ) {
+	return html;
+        };
 	$('.choose_sing_login span').click(function(){
        $(this).addClass('selected').siblings().removeClass('selected');
 
